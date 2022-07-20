@@ -1,4 +1,4 @@
-# cat-cafe-uwu-cafe-
+# hpx-catcafe
 this script made for qbus framework
 
 PREVIEW OF  SCRIPT
