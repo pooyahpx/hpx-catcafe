@@ -104,9 +104,6 @@ This adds it to the closest upstairs office:
 
 
 
-dev by POYAHPX
-
-
 IF YOU NEED HELP FOR IT SEND DIRECT POYA#3724
 
 
