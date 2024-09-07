@@ -9,7 +9,6 @@ Config.link = "qb-inventory/html/images/" --Set this to the image directory of y
 
 Config.PatHeal = 2 			--how much you are healed by patting a cat, 2 hp seems resonable, enough not to be over powered and enough to draw people in.
 							--set to 0 if you don't want to use this
-
 Config.Items = {
     label = "Recipes",
     slots = 14,
