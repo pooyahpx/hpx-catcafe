@@ -1,6 +1,6 @@
 name "hpx-CatCafe"
 author "POYAHPX"
-version "v1.3.1"
+version "v1.3.2"
 description "CatCafe Script By POYAHPX"
 fx_version "cerulean"
 game "gta5"
@@ -20,12 +20,4 @@ server_scripts {
 
 shared_scripts {
     'config.lua',
-}
-
-lua54 'yes'
-
-escrow_ignore {
-	'*.lua*',
-	'client/*.lua*',
-	'server/*.lua*',
 }
