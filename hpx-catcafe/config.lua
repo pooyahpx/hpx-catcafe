@@ -3,13 +3,15 @@ print("hpx-CatCafe - CatCafe Script by POYAHPX")
 Config = {}
 Config.Debug = false -- false to remove green boxes
 
+Config.SQL = 'oxmysql' 
+
 Config.link = "qb-inventory/html/images/" --Set this to the image directory of your inventory script
 
 Config.PatHeal = 2 			--how much you are healed by patting a cat, 2 hp seems resonable, enough not to be over powered and enough to draw people in.
 							--set to 0 if you don't want to use this
 
 Config.Items = {
-    label = "Ingredients Storage",
+    label = "Recipes",
     slots = 14,
     items = {
         [1] = { name = "sugar", price = 0, amount = 50, info = {}, type = "item", slot = 1, },
@@ -32,7 +34,7 @@ Config.Items = {
 Config.Locations = {
     [1] = {
 		zoneEnable = true,
-        label = "catcafe", -- Set this to the required job
+        label = "Cat Cafe", -- Set this to the required job
         zones = {
 		  vector2(-591.15808105469, -1087.8620605469),
 		  vector2(-563.33447265625, -1087.8508300781),
