@@ -2,8 +2,15 @@
 
 +ALL BUGS FIXED
 
+![Screenshot (855)](https://github.com/user-attachments/assets/bbe844e8-9d69-49b6-b847-8a91b380a14b)
+
+![Screenshot (857)](https://github.com/user-attachments/assets/399d62fc-3923-42e8-bf3f-cbca8a4edc26)
+
+![Screenshot (858)](https://github.com/user-attachments/assets/685dc992-f330-47b2-bb79-db0e61fe95a6)
 
 # hpx-catcafe
+
+
 this script made for qbus framework
 
 PREVIEW OF  SCRIPT
