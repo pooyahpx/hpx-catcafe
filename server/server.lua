@@ -1,29 +1,11 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 CreateThread(function()
-	local food = { "bento", "blueberry", "donut", "miso", "strawberry", "rice", "noodlebowl", "ramen" }
-    for k,v in pairs(food) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:Eat6', source, item.name) end) end
+	local food = { "bento", "blueberry", "donut", "miso", "strawberry", "rice", "noodlebowl", "ramen", "bmochi", "pmochi", "gmochi", "omochi", "purrito", "nekocookie", "pizza", "pancake", "cakepop", "cake", "riceball" }
+    for k,v in pairs(food) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:Eat', source, item.name) end) end
 	
-	local food2 = { "bmochi", "pmochi", "gmochi", "omochi" }
-    for k,v in pairs(food2) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:Eat2', source, item.name) end) end
-
-	local food3 = { "purrito" }
-    for k,v in pairs(food3) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:Eat3', source, item.name) end) end
-
-	local food4 = { "nekocookie", "pizza", "pancake", "cakepop" }
-    for k,v in pairs(food4) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:Eat4', source, item.name) end) end
-
-	local food5 = { "cake" }
-    for k,v in pairs(food5) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:Eat5', source, item.name) end) end
-
-	local food6 = { "riceball" }
-    for k,v in pairs(food6) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:Eat6', source, item.name) end) end
-	
-	local drinks = { "bobatea", "bbobatea", "gbobatea", "pbobatea", "obobatea", "mocha" }
+	local drinks = { "bobatea", "bbobatea", "gbobatea", "pbobatea", "obobatea", "mocha", "nekolatte" }
     for k,v in pairs(drinks) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:Drink', source, item.name) end) end
-
-	local drinkss = { "nekolatte" }
-    for k,v in pairs(drinkss) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:DrinkNeko', source, item.name) end) end
 	
 	local alcohol = { "sake" }
     for k,v in pairs(alcohol) do QBCore.Functions.CreateUseableItem(v, function(source, item) TriggerClientEvent('hpx-catcafe:client:DrinkAlcohol', source, item.name) end) end
